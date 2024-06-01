@@ -1,38 +1,22 @@
-# create-svelte
+# Svelte prototype for given Figma design
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is a prototype built with Svelte. 
 
-## Creating a project
+Figma design that was followed: 
 
-If you're seeing this, you've probably already done this step. Congrats!
+https://www.figma.com/design/XSkgJbrU53UhKWEdM5X90B/CLOUDCHAT-AI?node-id=1-4&t=ypZkff2ZsvfT1y3R-0## Requirements
+## Requirements
+- Node.js v14 or later
+- npm v6 or later
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installation
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1) Clone this repository
+2) Navigate to the project directory
+    - cd cloudchat
+3) Install dependencies
+    - npm install
+4) To run the application in development mode, use the following command:
+    - npm run dev
+5) Open your browser and navigate to `http://localhost:5173/`
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

@@ -1,5 +1,6 @@
 <div class="chat-header">
-    <h1 class="nav-link active" id="gpt-3.5-tab" data-bs-toggle="tab" href="#gpt-3.5" role="tab" aria-controls="gpt-3.5" aria-selected="true">Chat UI</h1>
+    <h1 class="nav-link active" id="gpt-3.5-tab" data-bs-toggle="tab" href="#gpt-3.5" aria-controls="gpt-3.5"
+        >Chat UI</h1>
     <div class="search">
         <div class="search-bar" style="display: flex; align-items: center">
             <input type="text" class="form-control" placeholder="Search">

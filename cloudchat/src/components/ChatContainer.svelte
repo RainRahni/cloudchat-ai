@@ -10,7 +10,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat UI</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #fff;
@@ -38,7 +37,7 @@
             No plugins enabled
         </div>
         <div class="d-flex justify-content-center">
-            <img style="display: flex; justify-content: center; width: 275px;" src="backgroundImg.png">
+            <img style="display: flex; justify-content: center; width: 275px;" src="backgroundImg.png" alt="bolt">
         </div>
         <ChatFooter/>
         <p style="font-size: 10px">
